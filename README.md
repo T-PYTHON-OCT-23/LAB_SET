@@ -30,7 +30,7 @@
 - Create a variable to hold the values of Unilever products (Use a dictionary)
 - Print each product sold by Unilever and the sales figures / numbers  for that product.
 - Print each product sold by Nestle and the sales figures / numbers  for that product.
-- Print which of the companies has more products that the other company.
+- Print which of the companies has more products than the other company.
 - Print the top selling product from Nestle with sales figures.
 - Print the top selling product from Unilever with sales figures.
 - Using Sets & a loop, print all the cities Unilever & Nestle sell their products in.
