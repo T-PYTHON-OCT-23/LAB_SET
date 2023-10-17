@@ -37,12 +37,15 @@ print("--"*20)
 nestleLocations = set({"Saudi Arabia", "Oman", "Kuwait", "Egypt", "Jordan", "Sudan"})
 unileverLocations = set({"Saudi Arabia", "Kuwait", "Iraq", "Morocco", "Yemen", "United Emirates"})
 
-all_cities=nestleLocations|unileverLocations
-print("all cities that Nestle and Unilver sell in  ->",all_cities)
+print("all cities that Nestle and Unilver sell in  ->",end=" ")
+for i in nestleLocations|unileverLocations:
+    print(i,end=" ")
 print()
-incommon_cities=nestleLocations&unileverLocations
-print("in common cities between Nestle and Unilver -> ",incommon_cities)
+print("in common cities between Nestle and Unilver -> ",end=" ")
+for i in nestleLocations&unileverLocations:
+    print(i,end=" ")
 print()
-nestleButNotUnilver=nestleLocations-unileverLocations
-print("Nestle sells in, but Unilver doens't sell in -> ", nestleButNotUnilver)
+print("Nestle sells in, but Unilver doens't sell in ->",end=" ")
+for i in nestleLocations-unileverLocations:
+    print(i,end=" ")
 print()
