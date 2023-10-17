@@ -26,13 +26,13 @@
 
 
 ## Using what you've learned during . Please do the following :
-- Create a variable to hold the values of Nestle products (use a dicitionary)
-- Create a variable to hold the values of Unilever products (Use a dictionary)
-- Print each product sold by Unilever and the sales figures / numbers  for that product.
-- Print each product sold by Nestle and the sales figures / numbers  for that product.
-- Print which of the companies has more products that the other company.
-- Print the top selling product from Nestle with sales figures.
-- Print the top selling product from Unilever with sales figures.
+- Create a variable to hold the values of Nestle products (use a dicitionary)done
+- Create a variable to hold the values of Unilever products (Use a dictionary) done
+- Print each product sold by Unilever and the sales figures / numbers  for that product.done
+- Print each product sold by Nestle and the sales figures / numbers  for that product.done
+- Print which of the companies has more products that the other company.done 
+- Print the top selling product from Nestle with sales figures.done
+- Print the top selling product from Unilever with sales figures.done
 - Using Sets & a loop, print all the cities Unilever & Nestle sell their products in.
 - Using Sets & a loop, print the cities that both Nestle & Unilver sell in common.
 - Using Sets & a loop, print the cities Nestle sells in , but Unilver doens't sell in.
