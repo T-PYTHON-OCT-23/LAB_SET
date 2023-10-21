@@ -15,8 +15,18 @@ unilever_product = {
     "Marmite": 11715324
 }
 
+for product, sales in nestle_product():
+    print(f"{product}: {sales} US Dollars")
+
+print(nestle_product)
 print("nestle products and sales figures:")
 print(len(nestle_product))
+
+print("Unilever Products:")
+for product, sales in unilever_product():
+    print(f"{product}: {sales} US Dollars")
+    
+print(unilever_product)
 print("Unilever products and sales figures:")
 print(len(unilever_product))
 
