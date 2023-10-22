@@ -24,19 +24,18 @@ if len(i)>len(j):
     print("___________________________________________________________")
 else:
     print("the company has more products: they equal")  
-      
+max_=[]     
 for key,value in Nestle_products.items():
-    list_value = [value]
-    max(list_value)
+     max_.append(value)
 print("___________________________________________________________")
 print("the top selling product from Nestle: ")    
-print(key,value) 
+print(max(max_)) 
+max__=[]
 for key,value in Unilever_products.items():
-    list_value = [value]
-    max(list_value)
+    max__.append(value)    
 print("___________________________________________________________") 
 print("the top selling product from Unilever: ")   
-print(key,value) 
+print(max(max__)) 
 print("___________________________________________________________")
 print("the cities Unilever & Nestle sell their products in: ")
 for city in Nestle | Unilever:
